@@ -1,0 +1,15 @@
+{
+    "extends": "@efox/emp-tsconfig",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "allowJs": true,
+        "outDir": "./ts_dist",
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "./ts_dist"
+    ]
+}
